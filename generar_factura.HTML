@@ -1,0 +1,25 @@
+<!-- generar_factura.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generar Factura</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="factura-container">
+        <h1>Generar Factura</h1>
+        <form id="generarFacturaForm">
+            <label for="cliente">Cliente (Número de Documento):</label>
+            <input type="text" id="cliente" name="cliente" required>
+            <div id="productos">
+                <h2>Productos</h2>
+                <!-- Productos se agregarán dinámicamente -->
+            </div>
+            <button type="submit">Generar Factura</button>
+        </form>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>
